@@ -21,7 +21,7 @@ const clickOnButton = async (config = { DOM: null, selector: '' }) => {
  * @param config.DOM Puppeteer's Page.
  * @param config.prop A property used to identify the elements you need.
  * @param config.valueType Type of value you want to output (innerText, href, etc).
- * @returns An Array of objects containing all HTMLElements collected.
+ * @returns An Array of values containing all HTMLElements collected.
  */
 
 const getRendederdElements = async (
