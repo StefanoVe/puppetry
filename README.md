@@ -11,7 +11,7 @@ clickOnButton({ DOM: Puppeteer.page, Selector: String });
 
 ```ts
 getRenderedElements({ DOM: Puppeteer.page, prop: String, valueType: String });
-//return an array of values from HTMLElements that match the chosen property
+//returns an array of values from HTMLElements that match the chosen property
 ```
 
 <h2> getRemoteObjectsElements </h2>
@@ -22,5 +22,5 @@ getRemoteObjectsElements({
   prop: String,
   valueType: String,
 });
-//return an array of HTMLElements that match the chosen property
+//returns an array of HTMLElements that match the chosen property
 ```
